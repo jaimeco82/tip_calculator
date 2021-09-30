@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tip Calculator</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <header>
+    <h2>Tip Calculator</h2>
+  </header>
+  <section>
+    <div id="tip_calculator">
+      <form id = "myForm">
+        <label id='total_amount' > How much was your bill?</label><br>
+        <span id='dollar'>$ </span><input type="text"  id="bill_amount"  placeholder="Bill Amount" ><br>
+        <label>How was your service?</label><br>
+        <select name="service" id='quality' >
+          <option selected value ='0' >-- Choose an Option --</option>
+          <option value=".3">Outstanding - 30%</option>
+          <option value=".2">Good - 20%</option>
+          <option value=".15">Okay - 15%</option>
+          <option value=".1">Bad - 10%</option>
+          <option value=".05">terrible - 5%</option>
+        </select><br>
+      </form>
+      <label>How many people are sharing the bill?</label><br>
+      <input id = 'number_of_people' type="text" placeholder="Number of people"><span> people</span><br>
+    
+        <p><input class='btn' id="btnSubmit" type="submit" value="Submit" > </p>
+        <p id="total_due">      </p>
+    </div>
+  </section> 
+  <div id="reset">
+    <p><input id='rstBtn' onclick="restCalc()" type="button" class="btn" value = 'Reset'></p>
+  </div> 
+  <script src="./script/script.js"  ></script>
+
+</body>
+</html>

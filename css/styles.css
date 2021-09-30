@@ -1,0 +1,63 @@
+body{
+  background:#688C86;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 16px;
+  list-style: none;
+  margin:auto;
+  max-width: 350px;
+}
+header{
+  background:#4C5273;
+  color: #F29985;
+  margin-top:15%;
+  padding: 10px 15px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+header h2{
+  text-align: center;
+}
+#tip_calculator{
+  background:#F29985;
+  height: 350px;
+  line-height: 30px;
+  padding:20px 15px;
+}
+label{
+  padding-bottom:15px;
+
+}
+.submit_button{
+  text-align: center;
+  
+}
+.btn{
+  background:#4C5273;
+  border-style: none;
+  border-radius: 15px;
+  color: #F29985;
+  font-size: 18px;
+  margin-top: 15px;
+  padding: 10px 15px;
+}
+p{
+  text-align:center;
+}
+#total_due{
+  font-size: 24px;
+}
+
+#reset{
+  background-color: #4C5273;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding:10px 0;
+}
+
+#rstBtn{
+  background: #F29985;
+  color: #ffffff;
+
+
+
+}
